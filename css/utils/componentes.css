@@ -20,6 +20,8 @@
   font-family: "Poppins";
   font-weight: 600;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .botao.secundario {
@@ -81,7 +83,13 @@
 }
 
 .titulo-bg {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--c11);
+}
+
+.titulo {
+  background: url("../../img/dec/top-right.svg") no-repeat top right 20px;
 }
 
 .titulo p {
